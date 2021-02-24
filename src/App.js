@@ -19,8 +19,8 @@ function App() {
   return (
     <>
       <Switch>
-        <Route exact path="/eng"><AppEng /></Route>
-        <Route exact path="/">
+        <Route exact path="/PortfolioR/eng"><AppEng /></Route>
+        <Route exact path="/PortfolioR">
           <div className="stars" />
           <div className="glow" />
           <div className="App">
@@ -33,7 +33,7 @@ function App() {
             <div className="body">
               <Container fixed >
                 <Paper className="paper" variant="outlined" style={{ backgroundColor: '#cad6fc' }} >
-                  <Link to="/eng"><span className="flag"><img src={flag} style={{ width: '80px' }, { height: '40px' }} /></span></Link>
+                  <Link to="/PortfolioR/eng"><span className="flag"><img src={flag} style={{ width: '80px' }, { height: '40px' }} /></span></Link>
                   <h1>Stack technologiczny</h1>
                   <div className="stack">
                     <p className="stackOne">Javascript es6</p>

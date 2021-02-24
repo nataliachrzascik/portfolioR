@@ -30,7 +30,7 @@ function App() {
                 <div className="body">
                     <Container fixed >
                         <Paper className="paper" variant="outlined" style={{ backgroundColor: '#cad6fc' }} >
-                            <Link to="/"><span className="flag"><img src={flagPol} style={{ width: '80px' }, { height: '40px' }} /></span></Link>
+                            <Link to="/PortfolioR"><span className="flag"><img src={flagPol} style={{ width: '80px' }, { height: '40px' }} /></span></Link>
                             <h1>Technology stack</h1>
                             <div className="stack">
                                 <p className="stackOne">Javascript es6</p>
