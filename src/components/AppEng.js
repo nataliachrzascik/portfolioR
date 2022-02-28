@@ -34,12 +34,16 @@ function App() {
                             <h1>Technology stack</h1>
                             <div className="stack">
                                 <p className="stackOne">Javascript es6</p>
-                                <p className="stackOne">Typescript</p>
                                 <p className="stackOne">React.js</p>
                                 <p className="stackOne">Redux.js</p>
                                 <p className="stackOne">node.js</p>
                                 <p className="stackOne">express.js</p>
                                 <p className="stackOne">rest api</p>
+                                <br />
+                                <p className="stackOne">YUP Formik</p>
+                                <p className="stackOne">Hooks</p>
+                                <p className="stackOne">Styled Components</p>
+                                <p className="stackOne">GSAP</p>
                                 <br />
 
                                 <p className="stackOne">html/css/sass</p>
@@ -52,10 +56,12 @@ function App() {
 
                                 <p className="stackOne">git</p>
                                 <p className="stackOne">gimp</p>
+                                <p className="stackOne">AdobeXD</p>
                             </div>
                             <h1>Projects</h1>
                             <Card className="root">
                                 <CardActionArea>
+                                <div onClick={() => openInNewTab('https://dyplomowe.herokuapp.com/')}>
                                     <CardMedia
                                         className="media"
                                         image={one}
@@ -63,18 +69,19 @@ function App() {
                                     />
                                     <CardContent className="content">
                                         <Typography className="contentTech" gutterBottom variant="h6" component="h3">
-                                            Typescript, React, Hooks, Ekspress, MongoDB
+                                        React, Redux, Hooks, Express, MongoDB
           </Typography>
                                         <Typography variant="body2" color="textSecondary" component="p">
-                                            Recipe database from which you can obtain recipes by category or add your own recipe.
+                                        Culinary blog system project. System allows registration/logging in/adding a recipe/viewing recipe database/commenting/adding to friends/viewing user's profile and own profile/changing personal data
           </Typography>
                                     </CardContent>
+                                    </div>
                                 </CardActionArea>
                                 <CardActions className="action">
-                                    <Button size="small" color="primary" onClick={() => openInNewTab('https://recipes-api-rnt.herokuapp.com')}>
+                                    <Button size="small" color="primary" onClick={() => openInNewTab('https://dyplomowe.herokuapp.com/')}>
                                         See the app
         </Button>
-                                    <Button size="small" color="primary" onClick={() => openInNewTab('https://github.com/nataliachrzascik/newRecipeApi')}>
+                                    <Button size="small" color="primary" onClick={() => openInNewTab('https://github.com/nataliachrzascik/inzynierskie')}>
                                         See code
         </Button>
                                 </CardActions>
@@ -82,6 +89,7 @@ function App() {
 
                             <Card className="root">
                                 <CardActionArea>
+                                <div onClick={() => openInNewTab('https://nataliachrzascik.github.io/-quarantineApp/')}>
                                     <CardMedia
                                         className="media"
                                         image={two}
@@ -95,6 +103,7 @@ function App() {
                                             An application that proposes activities that make the time in quarantine more pleasant and scores completed tasks.
           </Typography>
                                     </CardContent>
+                                    </div>
                                 </CardActionArea>
                                 <CardActions className="action">
                                     <Button size="small" color="primary" onClick={() => openInNewTab('https://nataliachrzascik.github.io/-quarantineApp/')}>
@@ -108,6 +117,7 @@ function App() {
 
                             <Card className="root">
                                 <CardActionArea>
+                                <div onClick={() => openInNewTab('https://nataliachrzascik.github.io/ShopReact/#/')}>
                                     <CardMedia
                                         className="media"
                                         image={three}
@@ -121,7 +131,9 @@ function App() {
                                             Product card and cart mechanism.
           </Typography>
                                     </CardContent>
+                                    </div>
                                 </CardActionArea>
+                               
                                 <CardActions className="action">
                                     <Button size="small" color="primary" onClick={() => openInNewTab('https://nataliachrzascik.github.io/ShopReact/#/')}>
                                         See the app
@@ -133,7 +145,9 @@ function App() {
                             </Card>
 
                             <Card className="root">
+                            
                                 <CardActionArea>
+                                <div onClick={() => openInNewTab('https://nataliachrzascik.github.io/weatherApp/')}>
                                     <CardMedia
                                         className="media"
                                         image={four}
@@ -147,6 +161,7 @@ function App() {
                                             Weather app for anywhere in the world.
           </Typography>
                                     </CardContent>
+                                    </div>
                                 </CardActionArea>
                                 <CardActions className="action">
                                     <Button size="small" color="primary" onClick={() => openInNewTab('https://nataliachrzascik.github.io/weatherApp/')}>
@@ -160,6 +175,7 @@ function App() {
 
                             <Card className="root">
                                 <CardActionArea>
+                                <div onClick={() => openInNewTab('https://nataliachrzascik.github.io')}>
                                     <CardMedia
                                         className="media"
                                         image={five}
@@ -173,6 +189,7 @@ function App() {
                                             Design of a store with clothes and accessories with an item filter.
           </Typography>
                                     </CardContent>
+                                    </div>
                                 </CardActionArea>
                                 <CardActions className="action">
                                     <Button size="small" color="primary" onClick={() => openInNewTab('https://nataliachrzascik.github.io')}>
@@ -186,6 +203,7 @@ function App() {
 
                             <Card className="root">
                                 <CardActionArea>
+                                <div onClick={() => openInNewTab('https://stupefied-leakey-6afad3.netlify.app/?fbclid=IwAR3aFXKVs-JWIQhpsrkEepX7E4hwmZKPzcwp_LpypQ1WzKioZfuB3HNqCAg')}>
                                     <CardMedia
                                         className="media"
                                         image={six}
@@ -199,6 +217,7 @@ function App() {
                                             Application that provides chat with rooms.
           </Typography>
                                     </CardContent>
+                                    </div>
                                 </CardActionArea>
                                 <CardActions className="action">
                                     <Button size="small" color="primary" onClick={() => openInNewTab('https://stupefied-leakey-6afad3.netlify.app/?fbclid=IwAR3aFXKVs-JWIQhpsrkEepX7E4hwmZKPzcwp_LpypQ1WzKioZfuB3HNqCAg')}>
