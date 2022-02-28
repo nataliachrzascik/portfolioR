@@ -38,14 +38,17 @@ function App() {
                   <h1>Stack technologiczny</h1>
                   <div className="stack">
                     <p className="stackOne">Javascript es6</p>
-                    <p className="stackOne">Typescript</p>
                     <p className="stackOne">React.js</p>
                     <p className="stackOne">Redux.js</p>
                     <p className="stackOne">node.js</p>
                     <p className="stackOne">express.js</p>
                     <p className="stackOne">rest api</p>
                     <br />
-
+                    <p className="stackOne">YUP Formik</p>
+                    <p className="stackOne">Hooks</p>
+                    <p className="stackOne">Styled Components</p>
+                    <p className="stackOne">GSAP</p>
+                    <br />
                     <p className="stackOne">html/css/sass</p>
                     <p className="stackOne">bootstrap</p>
                     <p className="stackOne">material-ui</p>
@@ -56,10 +59,12 @@ function App() {
 
                     <p className="stackOne">git</p>
                     <p className="stackOne">gimp</p>
+                    <p className="stackOne">Adobe XD</p>
                   </div>
                   <h1>Projekty</h1>
                   <Card className="root">
                     <CardActionArea>
+                    <div onClick={() => openInNewTab('https://dyplomowe.herokuapp.com/')}>
                       <CardMedia
                         className="media"
                         image={one}
@@ -67,18 +72,19 @@ function App() {
                       />
                       <CardContent className="content">
                         <Typography className="contentTech" gutterBottom variant="h6" component="h3">
-                          Typescript, React, Hooks, Ekspress, MongoDB
+                          React, Redux, Hooks, Express, MongoDB
           </Typography>
                         <Typography variant="body2" color="textSecondary" component="p">
-                          Baza przepisów z której można pozyskać przepisy według kategorii lub dodać własny przepis.
+                          Projekt systemu blogowego o tematyce kulinarnej. System umożliwia rejestrację/logowanie/dodanie przepisu/przeglądanie bazy przepisów/komentowanie/dodanie do znajomych/obejrzenie profilu użytkownika oraz własnego/zmiane danych osobowych
           </Typography>
                       </CardContent>
+                      </div>
                     </CardActionArea>
                     <CardActions className="action">
-                      <Button size="small" color="primary" onClick={() => openInNewTab('https://recipes-api-rnt.herokuapp.com')}>
+                      <Button size="small" color="primary" onClick={() => openInNewTab('https://dyplomowe.herokuapp.com/')}>
                         Zobacz apke
         </Button>
-                      <Button size="small" color="primary" onClick={() => openInNewTab('https://github.com/nataliachrzascik/newRecipeApi')}>
+                      <Button size="small" color="primary" onClick={() => openInNewTab('https://github.com/nataliachrzascik/inzynierskie')}>
                         Zobacz kod
         </Button>
                     </CardActions>
@@ -86,6 +92,7 @@ function App() {
 
                   <Card className="root">
                     <CardActionArea>
+                    <div onClick={() => openInNewTab('https://nataliachrzascik.github.io/-quarantineApp/')}>
                       <CardMedia
                         className="media"
                         image={two}
@@ -99,6 +106,7 @@ function App() {
                           Aplikacja proponująca zajęcia umilające czas na kwarantannie i punktująca wykonane zadania.
           </Typography>
                       </CardContent>
+                      </div>
                     </CardActionArea>
                     <CardActions className="action">
                       <Button size="small" color="primary" onClick={() => openInNewTab('https://nataliachrzascik.github.io/-quarantineApp/')}>
@@ -112,6 +120,7 @@ function App() {
 
                   <Card className="root">
                     <CardActionArea>
+                    <div onClick={() => openInNewTab('https://nataliachrzascik.github.io/ShopReact/#/')}>
                       <CardMedia
                         className="media"
                         image={three}
@@ -125,6 +134,7 @@ function App() {
                           Mechanizm karty produktu i koszyka.
           </Typography>
                       </CardContent>
+                      </div>
                     </CardActionArea>
                     <CardActions className="action">
                       <Button size="small" color="primary" onClick={() => openInNewTab('https://nataliachrzascik.github.io/ShopReact/#/')}>
@@ -138,6 +148,7 @@ function App() {
 
                   <Card className="root">
                     <CardActionArea>
+                    <div onClick={() => openInNewTab('https://nataliachrzascik.github.io/weatherApp/')}>
                       <CardMedia
                         className="media"
                         image={four}
@@ -151,6 +162,7 @@ function App() {
                           Aplikacja pokazująca pogode dla dowolnego miejsca na świecie.
           </Typography>
                       </CardContent>
+                      </div>
                     </CardActionArea>
                     <CardActions className="action">
                       <Button size="small" color="primary" onClick={() => openInNewTab('https://nataliachrzascik.github.io/weatherApp/')}>
@@ -164,6 +176,7 @@ function App() {
 
                   <Card className="root">
                     <CardActionArea>
+                    <div onClick={() => openInNewTab('https://nataliachrzascik.github.io')}>
                       <CardMedia
                         className="media"
                         image={five}
@@ -177,6 +190,7 @@ function App() {
                           Projekt sklepu z ubraniami i akcesoriami posiadający filtr przedmiotów.
           </Typography>
                       </CardContent>
+                      </div>
                     </CardActionArea>
                     <CardActions className="action">
                       <Button size="small" color="primary" onClick={() => openInNewTab('https://nataliachrzascik.github.io')}>
@@ -190,6 +204,7 @@ function App() {
 
                   <Card className="root">
                     <CardActionArea>
+                    <div onClick={() => openInNewTab('https://stupefied-leakey-6afad3.netlify.app/?fbclid=IwAR3aFXKVs-JWIQhpsrkEepX7E4hwmZKPzcwp_LpypQ1WzKioZfuB3HNqCAg')}>
                       <CardMedia
                         className="media"
                         image={six}
@@ -203,6 +218,7 @@ function App() {
                           Aplikacja udostępniająca czat z pokojami.
           </Typography>
                       </CardContent>
+                      </div>
                     </CardActionArea>
                     <CardActions className="action">
                       <Button size="small" color="primary" onClick={() => openInNewTab('https://stupefied-leakey-6afad3.netlify.app/?fbclid=IwAR3aFXKVs-JWIQhpsrkEepX7E4hwmZKPzcwp_LpypQ1WzKioZfuB3HNqCAg')}>
