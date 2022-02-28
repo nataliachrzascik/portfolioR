@@ -1,17 +1,16 @@
 .App {
   text-align: center;
 }
-
 header {
   margin: auto;
   font-family: "Akaya Telivigala", cursive;
   width: 70%;
 }
-.body {
+body {
   padding: 1em;
   background-color: #12131a;
 }
-.body h1 {
+body h1 {
   font-family: "Akaya Telivigala", cursive;
   color: #c2804a;
 }
