@@ -1,0 +1,174 @@
+.App {
+  text-align: center;
+}
+header {
+  margin: auto;
+  font-family: "Akaya Telivigala", cursive;
+  width: 70%;
+}
+body {
+  padding: 1em;
+  background-color: #12131a;
+}
+body h1 {
+  font-family: "Akaya Telivigala", cursive;
+  color: #c2804a;
+}
+.paper {
+  padding: 2em;
+}
+.root {
+  display: inline-block;
+  width: 40%;
+  height: 55vh;
+  margin: 10px;
+}
+.media {
+  height: 25vh;
+}
+.content {
+  height: 15vh;
+}
+.contentTech {
+  padding-bottom: 10px;
+}
+.action {
+  height: 10vh;
+}
+@media screen and (max-width: 800px) {
+  .root {
+    width: 90%;
+  }
+  .contentTech {
+    height: 10vh;
+  }
+  .action {
+    height: 15vh;
+  }
+}
+@media screen and (max-width: 400px) {
+  .root {
+    width: 100%;
+    height: 70vh;
+  }
+  .content {
+    height: 30vh;
+  }
+
+  .contentTech {
+    height: 15vh;
+  }
+  .action {
+    height: 10vh;
+  }
+}
+@media screen and (max-width: 300px) {
+  .root {
+    width: 100%;
+    height: 70vh;
+  }
+  .content {
+    height: 30vh;
+  }
+
+  .contentTech {
+    height: 15vh;
+  }
+  .action {
+    height: 10vh;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .stack {
+    font-size: 0.8rem;
+  }
+  .foot {
+    display: block;
+    font-size: 0.7em;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+.stack {
+  font-size: 1.2rem;
+}
+.stackOne {
+  display: inline-block;
+  letter-spacing: 2px;
+  margin-right: 10px;
+  text-transform: uppercase;
+}
+i {
+  padding: 1em;
+  font-size: 1.5em;
+}
+.App {
+  position: relative;
+  z-index: 5;
+  background-image: url(./components/css/tree2.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+@media screen and (min-width: 1920px) {
+  .App {
+    background-size: 100%;
+  }
+}
+
+.App-header {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.flag {
+  position: absolute;
+  /*z-index: 2;*/
+  top: 10px;
+  left: 10px;
+  width: 10%;
+}
+/* shining stars */
+@keyframes starsGlow {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -10000px 5000px;
+  }
+}
+
+.stars,
+.glow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 90vh;
+  display: block;
+}
+
+.stars {
+  background: #000000 url("./components/css/stars.png") repeat top center;
+  z-index: 0;
+}
+
+.glow {
+  background: transparent url("./components/css/twinkling.png") repeat top
+    center;
+  z-index: 1;
+  animation: starsGlow 200s linear infinite;
+}
